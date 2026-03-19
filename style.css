@@ -1,0 +1,82 @@
+/* Убираем отступы у страницы по умолчанию */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Стили для шапки */
+header {
+    background-color: #333; /* Темный фон */
+    padding: 15px;
+}
+
+/* Стили для списка навигации */
+nav ul {
+    list-style-type: none; /* Убираем точки перед списком */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Выстраиваем пункты в ряд */
+    justify-content: center; /* Центрируем меню */
+}
+
+/* Стили для пунктов списка */
+nav ul li {
+    margin: 0 15px; /* Расстояние между ссылками */
+}
+
+/* Стили для ссылок */
+nav ul li a {
+    color: blue; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Эффект при наведении */
+nav ul li a:hover {
+    color: #ffcc00; /* Желтый цвет при наведении */
+}
+
+/* Стили для основного контента */
+main {
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: blue;
+}
+
+nav {
+    background-color: #2c3e50; /* Темно-синий фон */
+    padding: 15px;
+    text-align: center; /* Центрируем ссылки */
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /* Убираем подчеркивание */
+    font-size: 18px;
+    margin: 0 15px; /* Расстояние между ссылками */
+    font-weight: bold;
+    display: inline-block; /* Чтобы отступы работали корректно */
+}
+
+nav a:hover {
+    color: #f1c40f; /* Желтый цвет при наведении */
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
